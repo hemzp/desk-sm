@@ -1,0 +1,22 @@
+Read desk-sm-pcb/desk-dashboard-build-spec.md.
+
+Project: Desk Dashboard using XIAO ESP32-S3 and Adafruit 4313 display.
+Connector choice: Option B, 1x11 2.54 mm header.
+Control mapping:
+- SW1 -> D0
+- SW2 -> D4
+- Encoder A -> D5
+- Encoder B -> D6
+- Encoder push -> D7
+
+Completed:
+- Schematic created and validated.
+- Display, switches, encoder, capacitor, power, and no-connects added.
+- No PCB layout or fabrication files created.
+
+Before continuing:
+- Fix the XIAO 3V3_OUT connection to the 3V3 display supply.
+- Add and verify proper +3V3 and GND symbols.
+- Resolve or document footprint-library warnings.
+- Perform human pin-by-pin schematic review.
+- Do not start PCB layout until approved.
