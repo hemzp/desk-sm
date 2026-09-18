@@ -1,0 +1,8 @@
+.cache
+.history/
+desk-sm-pcb/.history/
+*-backups/
+*.kicad_prl
+fp-info-cache
+~*.lck
+*.bak
