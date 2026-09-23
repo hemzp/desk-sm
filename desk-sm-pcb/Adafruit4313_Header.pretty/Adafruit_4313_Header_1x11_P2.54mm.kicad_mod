@@ -1,0 +1,122 @@
+(footprint "Adafruit_4313_Header_1x11_P2.54mm"
+  (version 20241229)
+  (generator "kicad-mcp")
+  (generator_version "9.0")
+  (layer "F.Cu")
+  (descr "Adafruit 4313 display header, 1x11 through-hole, 2.54 mm pitch")
+  (tags "Adafruit 4313 display header 1x11 THT 2.54mm")
+
+  (property "Reference" "REF**" (at 0 -2.54 0)
+    (layer "F.SilkS")
+    (uuid "38b6a0a9-ccba-4b69-9151-3ffe6429a829")
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (property "Value" "Adafruit_4313_Header_1x11_P2.54mm" (at 0 28.575 0)
+    (layer "F.Fab")
+    (uuid "8dc72767-e5ac-41bf-98ee-92ad919d1fbb")
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (property "Datasheet" "" (at 0 0 0)
+    (layer "F.Fab")
+    (uuid "d337c602-8bab-4ad9-8ca2-0f0aee86d6f5")
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+
+  (fp_rect
+    (start -1.5 -1.5)
+    (end 1.5 26.9)
+    (stroke (width 0.05) (type default))
+    (fill none)
+    (layer "F.CrtYd")
+    (uuid "f84c31c4-5108-4d39-b022-adecb2b290e4")
+  )
+
+  (pad "1" thru_hole rect
+    (at 0 0)
+    (size 1.7 1.7)
+    (drill 1)
+    (layers "*.Cu" "*.Mask")
+    (uuid "8eb9c52e-0ca1-43a1-9464-332032036358")
+  )
+
+  (pad "2" thru_hole circle
+    (at 0 2.54)
+    (size 1.7 1.7)
+    (drill 1)
+    (layers "*.Cu" "*.Mask")
+    (uuid "f890bd98-d754-4575-a078-2a9dd2de6ec8")
+  )
+
+  (pad "3" thru_hole circle
+    (at 0 5.08)
+    (size 1.7 1.7)
+    (drill 1)
+    (layers "*.Cu" "*.Mask")
+    (uuid "a0e4097a-aede-4fd7-9dfb-9215edbbc346")
+  )
+
+  (pad "4" thru_hole circle
+    (at 0 7.62)
+    (size 1.7 1.7)
+    (drill 1)
+    (layers "*.Cu" "*.Mask")
+    (uuid "bfcdfa92-9e93-469d-abe6-bd5ca6802bd9")
+  )
+
+  (pad "5" thru_hole circle
+    (at 0 10.16)
+    (size 1.7 1.7)
+    (drill 1)
+    (layers "*.Cu" "*.Mask")
+    (uuid "2662aa23-394d-44cd-90ee-a101cfa396de")
+  )
+
+  (pad "6" thru_hole circle
+    (at 0 12.7)
+    (size 1.7 1.7)
+    (drill 1)
+    (layers "*.Cu" "*.Mask")
+    (uuid "2c740923-3911-438d-a62d-90460968641a")
+  )
+
+  (pad "7" thru_hole circle
+    (at 0 15.24)
+    (size 1.7 1.7)
+    (drill 1)
+    (layers "*.Cu" "*.Mask")
+    (uuid "03c06aed-9954-4102-94fd-df2e0d8724a2")
+  )
+
+  (pad "8" thru_hole circle
+    (at 0 17.78)
+    (size 1.7 1.7)
+    (drill 1)
+    (layers "*.Cu" "*.Mask")
+    (uuid "75411dc8-f964-4f01-950e-796e4ce4ac78")
+  )
+
+  (pad "9" thru_hole circle
+    (at 0 20.32)
+    (size 1.7 1.7)
+    (drill 1)
+    (layers "*.Cu" "*.Mask")
+    (uuid "fff1b7f9-0025-4ab9-99fa-6c3184e82e72")
+  )
+
+  (pad "10" thru_hole circle
+    (at 0 22.86)
+    (size 1.7 1.7)
+    (drill 1)
+    (layers "*.Cu" "*.Mask")
+    (uuid "23436593-0b6d-4d23-903f-c41d6dd38f2a")
+  )
+
+  (pad "11" thru_hole circle
+    (at 0 25.4)
+    (size 1.7 1.7)
+    (drill 1)
+    (layers "*.Cu" "*.Mask")
+    (uuid "f1e8e306-df8f-41df-970a-0e7abf442af0")
+  )
+
+)

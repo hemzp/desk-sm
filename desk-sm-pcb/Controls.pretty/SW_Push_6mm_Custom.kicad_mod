@@ -1,0 +1,66 @@
+(footprint "SW_Push_6mm_Custom"
+  (version 20241229)
+  (generator "kicad-mcp")
+  (generator_version "9.0")
+  (layer "F.Cu")
+  (descr "6 mm through-hole tactile switch, four pads with duplicated contacts")
+  (tags "tactile switch pushbutton 6mm THT")
+
+  (property "Reference" "REF**" (at 0 -2.25 0)
+    (layer "F.SilkS")
+    (uuid "6e245686-ce38-4e81-8c50-6d4600ecc080")
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (property "Value" "SW_Push_6mm_Custom" (at 0 7 0)
+    (layer "F.Fab")
+    (uuid "3171e6ff-b7dc-4404-bf10-9e37a449a858")
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (property "Datasheet" "" (at 0 0 0)
+    (layer "F.Fab")
+    (uuid "6e89188b-935b-475b-8ec7-917f70926802")
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+
+  (fp_rect
+    (start -4.5 -1.25)
+    (end 4.5 5.75)
+    (stroke (width 0.05) (type default))
+    (fill none)
+    (layer "F.CrtYd")
+    (uuid "a88ab187-6431-41b5-8389-7a01cfb25fb3")
+  )
+
+  (pad "1" thru_hole rect
+    (at -3.25 0)
+    (size 1.7 1.7)
+    (drill 0.9)
+    (layers "*.Cu" "*.Mask")
+    (uuid "2b629c6c-b77f-4719-aacc-71e0cf424a7f")
+  )
+
+  (pad "1" thru_hole circle
+    (at 3.25 0)
+    (size 1.7 1.7)
+    (drill 0.9)
+    (layers "*.Cu" "*.Mask")
+    (uuid "d038106d-e5f2-4642-97db-1820d3c242ea")
+  )
+
+  (pad "2" thru_hole circle
+    (at -3.25 4.5)
+    (size 1.7 1.7)
+    (drill 0.9)
+    (layers "*.Cu" "*.Mask")
+    (uuid "14982c48-d5b7-4910-bc37-c4bb96e9df26")
+  )
+
+  (pad "2" thru_hole circle
+    (at 3.25 4.5)
+    (size 1.7 1.7)
+    (drill 0.9)
+    (layers "*.Cu" "*.Mask")
+    (uuid "3380455d-bc93-4240-b9a9-0c51fcc4962e")
+  )
+
+)
