@@ -2,10 +2,10 @@
 
 A custom PCB that sits on my desk and shows the album art of whatever I'm playing on Spotify, spinning like a vinyl while the song plays and freezing when it's paused. It also doubles as a weather display and a daily calendar view, controlled with two push buttons and a rotary encoder.
 
-![3D render, front](images/render-front.png)
+![3D render, front](images/front.png)
 *Front: display, two push buttons, and the rotary encoder.*
 
-![3D render, back detail](images/render-back-detail.png)
+![3D render, back detail](images/back.png)
 *Back: mounting holes and through-hole pads for the controls.*
 
 ## What it does
